@@ -1,0 +1,4 @@
+# Hiding the virtual environment and generated files
+venv/
+*.log
+*.pyc
