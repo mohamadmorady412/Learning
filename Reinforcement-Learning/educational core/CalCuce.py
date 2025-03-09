@@ -1,8 +1,13 @@
-try:
-    import numpy as np
-except ImportError:
-    np = None
-    print("Warning: NumPy is not installed. Some functionalities may not work.")
+import importlib
+
+def soft_import(module_name):
+    try:
+        return importlib.import_module(module_name)
+    except ImportError:
+        print(f"Warning: {module_name} is not installed. Some functionalities may not work.")
+        return None
+
+np = soft_import('numpy')
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
@@ -112,7 +117,6 @@ class ValueIterationAgent(AbstractAgent):
             self.value_function = new_value_function
             if delta < threshold:
                 break
-
 
 class AgentFactory:
     @staticmethod
