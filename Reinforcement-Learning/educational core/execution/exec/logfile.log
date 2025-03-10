@@ -1,0 +1,15 @@
+2025-03-09 20:33:49,593 - INFO - Starting task: sample_task_1 with args=(5, 10) kwargs={}
+2025-03-09 20:33:49,609 - INFO - Starting task: sample_task_2 with args=('Alice',) kwargs={}
+2025-03-09 20:33:49,609 - INFO - Starting task: sample_task_3 with args=(4,) kwargs={}
+2025-03-09 20:33:50,603 - INFO - Finished task: sample_task_1 with result=15
+2025-03-09 20:33:50,603 - INFO - Starting task: sample_task_1 with args=(20, 30) kwargs={}
+2025-03-09 20:33:50,603 - INFO - Task sample_task_1 with args=(5, 10) completed with result=15
+2025-03-09 20:33:51,606 - INFO - Finished task: sample_task_1 with result=50
+2025-03-09 20:33:51,606 - INFO - Starting task: sample_task_2 with args=('Bob',) kwargs={}
+2025-03-09 20:33:51,606 - INFO - Task sample_task_1 with args=(20, 30) completed with result=50
+2025-03-09 20:33:51,612 - INFO - Finished task: sample_task_2 with result=Hello, Alice!
+2025-03-09 20:33:51,612 - INFO - Task sample_task_2 with args=('Alice',) completed with result=Hello, Alice!
+2025-03-09 20:33:52,612 - INFO - Finished task: sample_task_3 with result=16
+2025-03-09 20:33:52,612 - INFO - Task sample_task_3 with args=(4,) completed with result=16
+2025-03-09 20:33:53,609 - INFO - Finished task: sample_task_2 with result=Hello, Bob!
+2025-03-09 20:33:53,609 - INFO - Task sample_task_2 with args=('Bob',) completed with result=Hello, Bob!
