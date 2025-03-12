@@ -1,0 +1,11 @@
+2025-03-12 14:15:31,585 - INFO - CPU: 89.1%, Memory: 9805824 bytes
+2025-03-12 14:15:33,587 - INFO - CPU: 100.0%, Memory: 9805824 bytes
+2025-03-12 14:15:35,589 - INFO - CPU: 100.0%, Memory: 9805824 bytes
+2025-03-12 14:15:37,590 - INFO - CPU: 100.0%, Memory: 9805824 bytes
+2025-03-12 14:15:39,591 - INFO - CPU: 84.4%, Memory: 9805824 bytes
+2025-03-12 14:15:41,609 - INFO - CPU: 55.4%, Memory: 9805824 bytes
+2025-03-12 14:15:43,615 - INFO - CPU: 64.1%, Memory: 9805824 bytes
+2025-03-12 14:15:45,626 - INFO - CPU: 67.7%, Memory: 9805824 bytes
+2025-03-12 14:15:47,643 - INFO - CPU: 72.3%, Memory: 9805824 bytes
+2025-03-12 14:15:49,090 - INFO - Monitoring interrupted by user.
+2025-03-12 14:15:49,090 - INFO - process terminated
